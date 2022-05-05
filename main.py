@@ -13,7 +13,7 @@ output_folder = downloader.unzip()
 print("Done!")
 
 print("Processing...")
-converter = utils.Converter(output_folder, fps=1, debug=True)
+converter = utils.Converter(output_folder, fps=10, debug=True)
 converter.convert_meeting()
 print("Done!")
 
